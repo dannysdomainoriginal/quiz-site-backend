@@ -1,6 +1,6 @@
 import renewAccessToken from "../utils/renewAccessToken.js";
 const api = axios.create({
-    baseURL: 'http://localhost:8001',
+    baseURL: 'https://dannysdomain-quiz-site-1-0.onrender.com/',
     timeout: 10000,
     withCredentials: true,
     headers: {
