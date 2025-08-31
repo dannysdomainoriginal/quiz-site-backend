@@ -1,13 +1,11 @@
 # Hey, Charles here ❤️
 
----
 I'm so glad I finished this shit 😅
 This project was really one filled with, 'why isn't this working 😠' and 'oh that's why 😅'
 
 But well i'm done now
 Here are some notes from when I just began the project
 
----
 
 ## This is a quiz site project to test your knowledge on backend
 It is a 3-day time limit project.
