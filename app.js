@@ -2,19 +2,14 @@ import mongoose from 'mongoose'
 import express from 'express'
 import path from 'path'
 import './config/global-setup.js'
-import './helpers/global-error-handlers.js'
+import './helpers/global-error-handler.js'
+import dotenv from 'dotenv'
+dotenv.config({ path: './config/.env' }) // custom path
 
 // mongoose.connect('mongodb://localhost/quiz-site')
-mongoose.connect(MONGODB_ADDON_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
 
 import questionsGen from './helpers/questionsGen.js'
 // questionsGen()
-
-import dotenv from 'dotenv'
-dotenv.config({ path: './config/.env' }) // custom path
 
 const PORT = process.env.PORT || 3001
 const app = express()
@@ -81,6 +76,19 @@ app.use((req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`)
-})
+
+
+// Connect to MongoDB first
+mongoose.connect(process.env.MONGODB_ADDON_URI)
+  .then(() => {
+    console.log("MongoDB connected");
+
+    // Only start server after successful DB connection
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error("MongoDB connection error:", err);
+    process.exit(1); // optional: stop the app if DB connection fails
+  });
