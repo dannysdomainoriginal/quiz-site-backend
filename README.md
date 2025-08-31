@@ -36,11 +36,13 @@ The current routes are:
 - added proper user validation and fixed all error paths
 - included proper error handlers, including ground-level-error on both backend and frontend
 - Debugged a lottttt, covered all the empty holes
+- I installed a downgraded version of mongoose for compatibility with clever cloub MongoDB URI
 
 ``` javascript
 The notification system is the browser window.alert(). 
  ```
 
-> I was able to host the db on Azure
+> I was able to host the db on Clever Cloud
+> I didn't want to use space off MongoDB Atlas since it was a simple project
 > 
-> The website is hosted at ___
+> The website is hosted at [dannysdomain-quiz-site-1-0.onrender.com](https://dannysdomain-quiz-site-1-0.onrender.com/)
