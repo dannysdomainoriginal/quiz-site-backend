@@ -1,0 +1,202 @@
+[
+  {
+    "Question": "Who is the smartest anime character?",
+    "ID": 1,
+    "opt1": "Light Yagami",
+    "opt2": "Katagiri Yuichi",
+    "opt3": "Ayanokouji Kiyotaka",
+    "opt4": "L, Death Note",
+    "Answer": "Ayanokouji Kiyotaka"
+  },
+
+  {
+    "Question": "Who is the most popular anime character?",
+    "ID": 2,
+    "opt1": "Kamado Tanjiro",
+    "opt2": "Eren Yeager",
+    "opt3": "Ayanokouji Kiyotaka",
+    "opt4": "Light Yagami",
+    "Answer": "Eren Yeager"
+  },
+
+  {
+    "Question": "What is the most common programming language?",
+    "ID": 3,
+    "opt1": "PHP",
+    "opt2": "Javascript",
+    "opt3": "C++",
+    "opt4": "Java",
+    "Answer": "Javascript"
+  },
+
+  {
+    "Question": "Which of these is the most popular anime?",
+    "ID": 4,
+    "opt1": "Attack On Titan",
+    "opt2": "Demonslayer",
+    "opt3": "My Hero Academia",
+    "opt4": "Death Note",
+    "Answer": "Attack On Titan"
+  },
+
+  {
+    "Question": "What is the coolest job in the world?",
+    "ID": 5,
+    "opt1": "Civil Engineer",
+    "opt2": "Medical Doctor",
+    "opt3": "Software Developer",
+    "opt4": "Pilot",
+    "Answer": "Software Developer"
+  },
+
+  {
+    "Question": "What is the most profitable career path for a Software Developer?",
+    "ID": 6,
+    "opt1": "Getting a 9-5",
+    "opt2": "Working for a startup",
+    "opt3": "Creating projects as a hobby",
+    "opt4": "Building a SAAS application",
+    "Answer": "Building a SAAS application"
+  },
+
+  {
+    "Question": "What language makes up the skeleton of a website?",
+    "ID": 7,
+    "opt1": "HTML",
+    "opt2": "CSS",
+    "opt3": "Javascript",
+    "opt4": "Python",
+    "Answer": "HTML"
+  },
+
+  {
+    "Question": "Which of these is a backend framework for Nodejs?",
+    "ID": 8,
+    "opt1": "Flask",
+    "opt2": "Express",
+    "opt3": "Django",
+    "opt4": "Nextjs",
+    "Answer": "Express"
+  },
+
+  {
+    "Question": "What does CSS stand for?",
+    "ID": 9,
+    "opt1": "Creative Style Sheets",
+    "opt2": "Cascading Style Sheets",
+    "opt3": "Computer Style Sheets",
+    "opt4": "Custom Style Sheets",
+    "Answer": "Cascading Style Sheets"
+  },
+
+  {
+    "Question": "What language is used for adding dynamic functionality to pages?",
+    "ID": 10,
+    "opt1": "Javascript",
+    "opt2": "HTML",
+    "opt3": "CSS",
+    "opt4": "Django",
+    "Answer": "Javascript"
+  },
+
+  {
+    "Question": "Which of these is not a backend language?",
+    "ID": 11,
+    "opt1": "PHP",
+    "opt2": "Ruby",
+    "opt3": "Java",
+    "opt4": "Javascript",
+    "Answer": "Javascript"
+  },
+
+  {
+    "Question": "Which of these is not a frontend framework?",
+    "ID": 12,
+    "opt1": "Reactjs",
+    "opt2": "Vue",
+    "opt3": "Django",
+    "opt4": "Angular",
+    "Answer": "Django"
+  },
+
+  {
+    "Question": "Which of these is not included in the React Ecosystem?",
+    "ID": 13,
+    "opt1": "Create React App",
+    "opt2": "React Router",
+    "opt3": "React Meta",
+    "opt4": "Redux",
+    "Answer": "React Meta"
+  },
+
+  {
+    "Question": "What is the most vital tool in programming?",
+    "ID": 14,
+    "opt1": "English Language",
+    "opt2": "Integrated Developer Environment",
+    "opt3": "Friends",
+    "opt4": "Self Confidence",
+    "Answer": "Integrated Developer Environment"
+  },
+
+  {
+    "Question": "Which of these ways does not get you a girlfriend?",
+    "ID": 15,
+    "opt1": "Meet up with a girl",
+    "opt2": "Approach a girl",
+    "opt3": "Ignore female species",
+    "opt4": "Slide into her dms",
+    "Answer": "Ignore female species"
+  },
+
+  {
+    "Question": "Who is the smartest of the following?",
+    "ID": 16,
+    "opt1": "Light Yagami",
+    "opt2": "Charles Daniel",
+    "opt3": "Ayanokouji Kiyotaka",
+    "opt4": "L, Death Note",
+    "Answer": "Charles Daniel"
+  },
+
+  {
+    "Question": "Who is the strongest anime character in the entire verse?",
+    "ID": 17,
+    "opt1": "Saitama",
+    "opt2": "Goku",
+    "opt3": "Vegeta",
+    "opt4": "Ayanokouji Kiyotaka",
+    "Answer": "Saitama"
+  },
+
+  {
+    "Question": "Who is the smartest anime character in the entire verse?",
+    "ID": 18,
+    "opt1": "Light Yagami",
+    "opt2": "Katagiri Yuichi",
+    "opt3": "Ayanokouji Kiyotaka",
+    "opt4": "L, Death Note",
+    "Answer": "Ayanokouji Kiyotaka"
+  },
+
+  {
+    "Question": "Who is the strongest character out of the following?",
+    "ID": 19,
+    "opt1": "Homelander",
+    "opt2": "Superman",
+    "opt3": "Omni-man",
+    "opt4": "Thor",
+    "Answer": "Omni-man"
+  },
+
+  {
+    "Question": "What is the first step to being a web developer?",
+    "ID": 20,
+    "opt1": "Surfing the web",
+    "opt2": "Learning HTML",
+    "opt3": "Starting a business",
+    "opt4": "Binge-watching anime",
+    "Answer": "Learning HTML"
+  }
+
+]

@@ -1,0 +1,18 @@
+this is a quiz site project to test your knowledge on backend
+It is a 3-day time limit project.
+Starting ? to ?
+
+The goal is to give my old quiz site a backend
+This should include 2 mongodb collections
+All user quizzes are stored internally in the user doc
+The quiz presets are transferred to a mongodb 'questions' collectiions
+
+The current routes are: 
+- auth ( post ): login, register, logout, refresh
+- /quiz ( post ) : add quiz
+- /quiz ( get ) : generate quiz
+- /user/quizzes ( get ) : get user quizzes
+- /user/data ( get ) : get user info for sidebar
+- user details are decrypted from jwt on frontend
+
+The notification system is the browser window.alert().

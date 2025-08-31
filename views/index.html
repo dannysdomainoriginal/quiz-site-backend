@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Quiz Site</title>
+    </head>
+
+    <body>
+
+        <section class="full-container">
+            <img src="/images/Quiz Logo.PNG" alt="" class="logo">
+            <div class="b-container">
+                <button class="home-btn 1 signin-modal">Take A Quiz</button>
+                <button class="home-btn 2 login-modal">Log In</button>
+                <button class="home-btn 3 check-results">Check Results</button>
+            </div>
+
+        </section>
+
+        <div class="modal-container" id="modal1">
+            <div class="modal">
+                <div class="image-upload">
+                    <img src="/images/instructor8.png" alt="" id="profile-pic">
+                    <div class="btn-div">
+                        <label for="input-file" class="input-file">Upload Image</label>
+                        <button class="btn modal2">From Our Library</button>
+                    </div>
+                </div>
+
+                <form action="" class="signup-form" onsubmit = console>
+                    <input type="file" id="input-file" accept="image/jpg, image/png, image/jpeg" style="display: none;" name="photo">
+
+                    <div class="input-div">
+                        <label for="Name">Name</label>
+                        <input type="text" required name="name" id="Name" class="signup-input">
+                    </div>
+                    <div class="input-div">
+                        <label for="Username">Username</label>
+                        <input type="text" required name="username" id="Username" class="signup-input">
+                    </div>
+                    <div class="input-div">
+                        <label for="Password">Password</label>
+                        <input type="text" required name="password" id="Password" class="signup-input">
+                    </div>
+
+                    <button type="submit" class="submit-btn">Sign Up</button>
+                    <p class="switch to-login">Already have an account?</p>
+                </form>
+            </div>
+
+            <p class="close-btn">
+                X
+            </p>
+
+            <div class="modal-container" id="modal2">
+                <div class="library-modal">
+                    <img src="/images/instructor8.png" alt="">
+                    <img src="/images/bottom right.png" alt="">
+                    <img src="/images/bottome left.png" alt="">
+                    <img src="/images/top left.png" alt="">
+                    <img src="/images/top right.png" alt="">
+                    <img src="/images/top right.png" alt="">
+                    <img src="/images/top left.png" alt="">
+                    <img src="/images/instructor8.png" alt="">
+                    <img src="/images/bottome left.png" alt="">
+                    <img src="/images/bottom right.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-container" id="modal3">
+            <div class="modal login">
+        
+                <form action="" class="login-form">
+                    <!-- <div class="input-div">
+                        <label for="Name">Name</label>
+                        <input type="text" required id="Name" class="login-input">
+                    </div> -->
+                    <div class="input-div">
+                        <label for="Username">Username</label>
+                        <input type="text" required name="username" id="Username" class="login-input user-entry">
+                    </div>
+                    <div class="input-div">
+                        <label for="Password">Password</label>
+                        <input type="text" required name="password" id="Password" class="login-input">
+                    </div>
+        
+                    <button type="submit" class="submit-btn">Log In</button>
+                    <p class="switch to-signin">Don't have an account?</p>
+                </form>
+            </div>
+        
+            <p class="close-btn-login">
+                X
+            </p>
+        </div>
+        
+        <script>
+            document.querySelector('body').onload = () => {
+                if (!localStorage.getItem('Users') || !sessionStorage.getItem('CurrentUser')) {
+                    localStorage.setItem('Users', JSON.stringify([]))
+                }
+                console.log(JSON.parse(localStorage.getItem('Users')))
+            }
+        </script>
+        <!-- <script src="/js/entities.js"></script> -->
+        <!-- <script src="/js/main.js"></script> -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="/js/pages/index.js" type="module"></script>
+    </body>
+
+</html>

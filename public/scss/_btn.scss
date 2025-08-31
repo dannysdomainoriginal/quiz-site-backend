@@ -1,0 +1,23 @@
+button, .input-file {
+  background-color: #ffc001;
+  // color: ; /* dark text for contrast */
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .2s ease-out;
+  // box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+button:hover , .input-file:hover {
+  background-color: #e6ac00; /* slightly darker shade */
+  // box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+
+button:active, .input-file:active {
+  background-color: #cc9900; /* pressed shade */
+  transform: translateY(0);
+}

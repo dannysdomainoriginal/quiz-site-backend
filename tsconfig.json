@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "module": "esnext",
+        "rootDir": "./public/src",
+        "outDir": "./public/js",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "removeComments": true,
+        "strict": true,
+        "noEmitOnError": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+
+        "baseUrl": "./public/src",
+        "paths": {
+            "@models/*": ["models/"],
+            "@widgets/*": ["widgets/"],
+            "@utils/*": ["utils/"],
+            "@controllers/*": ["controllers/"]
+        }
+    },
+    "include": ["public/src/**/*"],
+    "exclude": ["node_modules", "public/js"]
+}
